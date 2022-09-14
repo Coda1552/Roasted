@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "roasted",
+  "version": "${version}",
+
+  "name": "Roasted",
+  "description": "Roast your marshmallows to perfection!",
+  "authors": [
+    "Coda",
+    "Dhyces"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/roasted",
+    "sources": "https://github.com/Coda1552/Roasted"
+  },
+
+  "license": "Mozilla Public License Version 2.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.coda.roasted.Roasted"
+    ],
+    "client": [
+      "com.coda.roasted.RoastedClient"
+    ],
+    "fabric-datagen": [
+      "com.coda.roasted.datagen.RoastedDatagen"
+    ]
+  },
+
+  "mixins": [
+    "roasted.mixins.json"
+  ],
+
+  "accessWidener": "roasted.accesswidener",
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}
