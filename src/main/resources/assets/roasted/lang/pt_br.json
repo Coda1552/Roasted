@@ -1,0 +1,22 @@
+{
+    "item.roasted.marshmallow": "Marshmallow",
+    "item.roasted.marshmallow_on_a_stick": "Marshmallow no graveto",
+    "item.roasted.soul_marshmallow_on_a_stick": "Soul Marshmallow no graveto",
+    "item.roasted.toasted_marshmallow_on_a_stick": "Marshmallow tostado no graveto",
+    "item.roasted.unroasted_smore": "S'more não torrado",
+    "item.roasted.warm_smore": "S'more quente",
+    "item.roasted.perfect_smore": "S'more perfeito",
+    "item.roasted.burnt_smore": "Queimado S'more",
+    "item.roasted.charred_smore": "Carbonizado S'more",
+  
+    "roasted.roastedness.unroasted": "Não torrado",
+    "roasted.roastedness.warm": "Quente",
+    "roasted.roastedness.perfect": "Perfeito",
+    "roasted.roastedness.burnt": "Queimado",
+    "roasted.roastedness.charred": "Carbonizado",
+  
+    "roasted.marshmallow.title": "Marshmallows",
+    "roasted.marshmallow.desc": "Use 8 açúcares para craftar alguns marshmallows",
+    "roasted.roasted_marshmallow.title": "Assado à Perfeição!",
+    "roasted.roasted_marshmallow.desc": "Asse um marshmallow em um graveto sobre uma fogueira\nObs: Não asse por muito tempo!"
+  }
