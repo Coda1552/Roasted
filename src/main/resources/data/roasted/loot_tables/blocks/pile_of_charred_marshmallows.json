@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "roasted:pile_of_burnt_marshmallows.json"
+          "name": "roasted:pile_of_charred_marshmallows"
         }
       ],
       "conditions": [
