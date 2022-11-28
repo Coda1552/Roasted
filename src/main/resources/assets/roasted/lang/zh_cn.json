@@ -1,0 +1,22 @@
+{
+  "item.roasted.marshmallow": "棉花糖",
+  "item.roasted.marshmallow_on_a_stick": "串在木棍上的棉花糖",
+  "item.roasted.soul_marshmallow_on_a_stick": "串在木棍上的灵魂棉花糖",
+  "item.roasted.toasted_marshmallow_on_a_stick": "串在木棍上的烤棉花糖",
+  "item.roasted.unroasted_smore": "未烘烤的斯摩尔",
+  "item.roasted.warm_smore": "温暖的斯摩尔",
+  "item.roasted.perfect_smore": "完美的斯摩尔",
+  "item.roasted.burnt_smore": "烤过头斯摩尔",
+  "item.roasted.charred_smore": "烤糊的斯摩尔",
+
+  "roasted.roastedness.unroasted": "未烘烤",
+  "roasted.roastedness.warm": "温暖",
+  "roasted.roastedness.perfect": "完美",
+  "roasted.roastedness.burnt": "烤过头",
+  "roasted.roastedness.charred": "烤糊",
+
+  "roasted.marshmallow.title": "棉花糖",
+  "roasted.marshmallow.desc": "使用8个糖来制作一些棉花糖",
+  "roasted.roasted_marshmallow.title": "烤至完美！",
+  "roasted.roasted_marshmallow.desc": "在营火上用木棍烤棉花糖\n注意：别烤的时间太长了！"
+}
