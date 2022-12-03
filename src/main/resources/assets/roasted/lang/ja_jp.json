@@ -1,0 +1,22 @@
+{
+  "item.roasted.marshmallow": "マシュマロ",
+  "item.roasted.marshmallow_on_a_stick": "マシュマロ付きの棒",
+  "item.roasted.soul_marshmallow_on_a_stick": "魂のマシュマロ付きの棒",
+  "item.roasted.toasted_marshmallow_on_a_stick": "焼きマシュマロ付きの棒",
+  "item.roasted.unroasted_smore": "生スモア",
+  "item.roasted.warm_smore": "温かいスモア",
+  "item.roasted.perfect_smore": "完璧なスモア",
+  "item.roasted.burnt_smore": "焦げたスモア",
+  "item.roasted.charred_smore": "黒焦げスモア",
+
+  "roasted.roastedness.unroasted": "生",
+  "roasted.roastedness.warm": "温かい",
+  "roasted.roastedness.perfect": "完璧",
+  "roasted.roastedness.burnt": "焦げた",
+  "roasted.roastedness.charred": "黒焦げ",
+
+  "roasted.marshmallow.title": "マシュマロ",
+  "roasted.marshmallow.desc": "砂糖8個でマシュマロを作る",
+  "roasted.roasted_marshmallow.title": "完璧な火加減",
+  "roasted.roasted_marshmallow.desc": "焚き火の近くでマシュマロ付きの棒を持って焼く\n注意：焼きすぎないように！"
+}
