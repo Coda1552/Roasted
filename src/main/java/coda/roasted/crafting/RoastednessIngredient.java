@@ -42,7 +42,7 @@ public class RoastednessIngredient extends Ingredient {
     public JsonElement toJson() {
         var json = new JsonObject();
         json.addProperty("type", CraftingHelper.getID(Serializer.INSTANCE).toString());
-        json.addProperty("item", stack.getItem().getRegistryName().toString());
+        json.addProperty("item", stack.getItem().getDescription().toString());
         json.addProperty("count", stack.getCount());
         json.addProperty("roast_min", min);
         json.addProperty("roast_max", max);

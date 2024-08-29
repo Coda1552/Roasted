@@ -6,7 +6,6 @@ import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -82,19 +81,19 @@ public class SoulMarshmallowOnAStickItem extends Item {
     public void appendHoverText(ItemStack stack, @Nullable Level p_41422_, List<Component> tooltip, TooltipFlag p_41424_) {
         CompoundTag tag = stack.getOrCreateTag();
         if (tag.getInt("Roastedness") < 5) {
-            tooltip.add(new TranslatableComponent("roasted.roastedness.unroasted").withStyle(ChatFormatting.GRAY).withStyle(ChatFormatting.ITALIC));
+            tooltip.add(Component.translatable("roasted.roastedness.unroasted").withStyle(ChatFormatting.GRAY).withStyle(ChatFormatting.ITALIC));
         }
         else if (tag.getInt("Roastedness") < 15) {
-            tooltip.add(new TranslatableComponent("roasted.roastedness.warm").withStyle(ChatFormatting.GRAY).withStyle(ChatFormatting.ITALIC));
+            tooltip.add(Component.translatable("roasted.roastedness.warm").withStyle(ChatFormatting.GRAY).withStyle(ChatFormatting.ITALIC));
         }
         else if (tag.getInt("Roastedness") < 20) {
-            tooltip.add(new TranslatableComponent("roasted.roastedness.perfect").withStyle(ChatFormatting.GRAY).withStyle(ChatFormatting.ITALIC));
+            tooltip.add(Component.translatable("roasted.roastedness.perfect").withStyle(ChatFormatting.GRAY).withStyle(ChatFormatting.ITALIC));
         }
         else if (tag.getInt("Roastedness") < 30) {
-            tooltip.add(new TranslatableComponent("roasted.roastedness.burnt").withStyle(ChatFormatting.GRAY).withStyle(ChatFormatting.ITALIC));
+            tooltip.add(Component.translatable("roasted.roastedness.burnt").withStyle(ChatFormatting.GRAY).withStyle(ChatFormatting.ITALIC));
         }
         else if (tag.getInt("Roastedness") <= 50) {
-            tooltip.add(new TranslatableComponent("roasted.roastedness.charred").withStyle(ChatFormatting.GRAY).withStyle(ChatFormatting.ITALIC));
+            tooltip.add(Component.translatable("roasted.roastedness.charred").withStyle(ChatFormatting.GRAY).withStyle(ChatFormatting.ITALIC));
         }
     }
 
